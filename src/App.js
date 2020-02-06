@@ -7,21 +7,25 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 function App() {
   return (
     <div className="App">
+    	<FunctionClick />
+    	<ClassClick />
     	{/*<Counter />*/}
     	{/*<Message />*/}
       {/*<Greet name="JC" schoolName="DHVSU">
 				<p>I am so cool</p>
       </Greet>*/}
-      <Greet name="Mikha" schoolName="GNC" />
+      {/*<Greet name="Mikha" schoolName="GNC" />*/}
       {/*<Greet name="Jhonel" schoolName="SCA" />*/}
       {/*<Welcome name="JC" schoolName="DHVSU">
 				<p>I am so cool</p>
       </Welcome>*/}
-      <Welcome name="Mikha" schoolName="GNC" />
+      {/*<Welcome name="Mikha" schoolName="GNC" />*/}
       {/*<Welcome name="Jhonel" schoolName="SCA" />*/}
       {/*<Hello />*/}
     </div>
