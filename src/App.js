@@ -11,12 +11,22 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
+import Stylesheets from './components/Stylesheets'
+import Inline from './components/Inline'
+import './AppStyle.css';
+import styles from './AppStyle.module.css';
+import Form from './components/Form'
 
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <Form />
+      {/*<h1 className='error'>Styles</h1>*/}
+      {/*<h1 className={styles.success}>Styles</h1>*/}
+      {/*<Inline />*/}
+      {/*<Stylesheets primary="true" />*/}
+      {/*<NameList />*/}
     	{/*<UserGreeting />*/}
     	{/*<ClassClick />*/}
     	{/*<Counter />*/}
