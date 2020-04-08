@@ -16,12 +16,14 @@ import Inline from './components/Inline'
 import './AppStyle.css';
 import styles from './AppStyle.module.css';
 import Form from './components/Form'
+import FragmentDemo from './components/FragmentDemo'
 
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <FragmentDemo />
+      {/*<Form />*/}
       {/*<h1 className='error'>Styles</h1>*/}
       {/*<h1 className={styles.success}>Styles</h1>*/}
       {/*<Inline />*/}
