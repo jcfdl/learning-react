@@ -18,12 +18,14 @@ import styles from './AppStyle.module.css';
 import Form from './components/Form'
 import FragmentDemo from './components/FragmentDemo'
 import RefsDemo from './components/RefsDemo'
+import FocusInput from './components/FocusInput'
 
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <FocusInput />
+      {/*<RefsDemo />*/}
       {/*<FragmentDemo />*/}
       {/*<Form />*/}
       {/*<h1 className='error'>Styles</h1>*/}
