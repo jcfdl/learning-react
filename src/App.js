@@ -20,14 +20,18 @@ import FragmentDemo from './components/FragmentDemo'
 import RefsDemo from './components/RefsDemo'
 import FocusInput from './components/FocusInput'
 import FRParentInput from './components/FRParentInput'
+import Hero from './components/Hero'
+import ErrorBoundary from './components/ErrorBoundary'
 
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
-
-      
+      <ErrorBoundary>
+        <Hero heroname="Batman" />
+        <Hero heroname="Joker" />
+      </ErrorBoundary>
+      {/*<FRParentInput />*/}      
       {/*<FocusInput />*/}
       {/*<RefsDemo />*/}
       {/*<FragmentDemo />*/}
