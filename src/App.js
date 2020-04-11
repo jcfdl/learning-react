@@ -29,23 +29,23 @@ import HoverCounterTwo from './components/HoverCounterTwo'
 import CounterTwo from './components/CounterTwo'
 import ComponentC from './components/ComponentC'
 import { UserProvider } from './components/UserContext'
+import PostList from './components/PostList'
 
 class App extends Component {
   render() {
     return (
       <div className="App"> 
+        <PostList />
         
-        <UserProvider value="JC">
+        {/*<UserProvider value="JC">
           <ComponentC />
-        </UserProvider>
-
+        </UserProvider>*/}
         {/*<CounterTwo render={(count, incrementCount) => (
           <ClickCounterTwo count={count} incrementCount={incrementCount} />
         )} />
         <CounterTwo render={(count, incrementCount) => (
           <HoverCounterTwo count={count} incrementCount={incrementCount} />
         )} />*/}
-
         {/*<HoverCounter name='JC' />*/}
         {/*<ClickCounter />*/}
         {/*<ErrorBoundary>
